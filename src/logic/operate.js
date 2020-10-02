@@ -23,5 +23,11 @@ export default function operate(numberOne, numberTwo, operation) {
   if (operation === "**") {
     return one.pow(two).toString();
   }
+  if (operation === "**") {
+    return one.pow(two).toString();
+  }
+  if (operation === "**") {
+    return one.pow(two).toString();
+  }
   throw Error(`Unknown operation '${operation}'`);
 }
