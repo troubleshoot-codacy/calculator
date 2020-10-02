@@ -20,5 +20,8 @@ module.exports = {
   rules: {
   },
   parser: "babel-eslint",
-  ignorePatterns: ["*.json"]
+  ignorePatterns: ["*.json", "node_modules", "build"],
+  rules: {
+    "quotes": [2, "double", { "avoidEscape": true }]
+  }
 };
