@@ -22,8 +22,12 @@ export default function operate(numberOne, numberTwo, operation) {
   }
   if (operation === "**2") {
     if(one === 0){
-      if(two === 1){
-        return 1
+      if(two > 1){
+        if (two % 2 === 0){
+          if(two % 3 === 0){
+            return "way too complex"
+          }
+        }
       }
       else return 0
     }
