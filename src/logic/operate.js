@@ -21,7 +21,14 @@ export default function operate(numberOne, numberTwo, operation) {
     }
   }
   if (operation === "**2") {
-    return one.times(one).toString();
+    if(one === 0){
+      if(two === 1){
+        return 1
+      }
+      else return 0
+    }
+    else
+      return one.times(one).toString();
   }
   throw Error(`Unknown operation '${operation}'`);
 }
