@@ -4,6 +4,7 @@ Calculator
 
 Created with *create-react-app*. See the [full create-react-app guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
+New PR while master is the default branch on GH side
 
 
 Try It
